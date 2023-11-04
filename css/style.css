@@ -1,0 +1,385 @@
+/* Common Css Start */
+:root{
+    --first-font:'Ubuntu', sans-serif;
+    --header-font:'Abril Fatface', cursive;
+    --second-font:'Open Sans', sans-serif;
+    --common-color:#0f2f44;
+    --primary-color:#8484bf;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-info h5{
+    font-family: var(--first-font);
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--common-color);
+}
+.section-info h1{
+    font-family: var(--header-font);
+    font-weight: 300;
+    font-size: 32px;
+    color: var(--common-color);
+}
+.section-info p{
+    font-family: var(--second-font);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--common-color);
+}
+/* Common Css Start */
+/* Top bar section start */
+#top{
+    padding:19px 0;
+    background-color:var(--common-color);
+    color: #fefefe;
+    font-family: var(--first-font);
+    font-size: 16px;
+}
+/* Top bar section  End */
+/* Nav Section Start */
+
+#primary-nav #menu ul li a{
+    font-size: 16px;
+    font-family: var(--first-font);
+    font-weight: 500;
+    text-transform:capitalize;
+    color: #0f2f44;
+    padding:40px 18px;
+    display: inline-block;
+}
+#primary-nav #menu ul li a:hover{
+    color: #ffd153;
+    transition: 0.4sec;
+    background-color:#fefefe;
+}
+#primary-nav #menu ul li button{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid #ededed;
+}
+#primary-nav #menu ul li button:hover{
+    color: #ffd153;
+    transition: 0.4sec;
+    background-color:#fefefe;
+}
+/* Nav Section End */
+/* Banner section Start */
+#banner{
+    background-image:url(../image/bg-bizzency.jpg);
+    background-size: cover;
+    background-position:right center;
+    height: 600px;
+
+   
+}
+
+#banner .banner-info h2{
+   
+    font-size: 50px;
+    font-family:var(--first-font);
+    font-weight:400;
+    color: var(--common-color);
+}
+#banner .banner-info h1{
+    font-size: 50px;
+    font-family:var(--header-font);
+    font-weight:400;
+    color: var(--common-color);
+    text-transform: capitalize;
+}
+#banner .banner-info h3{
+    font-size: 32px;
+    font-family:var(--header-font);
+    font-weight:300;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+    color:var(--primary-color);
+}
+#banner .banner-info p{
+    padding: 15px 0;
+    font-size: 14px;
+    font-family:var(--second-font);
+    font-weight:400;
+    color:var(--primary-color);
+}
+#banner a{
+    font-size: 14px;
+    font-family:var(--first-font);
+    font-weight:500;
+    color: #ffffff;
+    background-color:var(--primary-color);
+    padding: 10px 30px;
+    box-shadow: 0 7px 20px 0px rgba(132, 132, 191, 0.15);
+    display: inline-block;
+    transition: all linear .5s;
+}
+#banner a:hover{
+    color: #ffd153;
+}
+#banner button{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    font-family: var(--first-font);
+    font-weight: 500;
+    background: #fefefe;
+    border: 1px solid #ededed;
+}
+#banner button:hover{
+    color: #ffd153;
+    transition: 0.4sec;
+    background-color: #ffffff;
+}
+
+/* Banner section End*/
+/* About Section Start */
+#about{
+    padding: 150px 0;
+}
+#about ul li{
+    font-family: var(--second-font);
+    font-family: 400;
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+#about a{
+    font-size: 20px;
+    font-family:var(--first-font);
+    font-weight:500;
+    color:var(--common-color);
+    padding: 10px 30px;
+    box-shadow: 0 7px 20px 0px rgba(199, 255, 18, 0.25);
+    display: inline-block;
+    transition: all linear .5s;
+}
+#about a:hover{
+    color:var(--common-color);
+    background-color:#ffd153;
+}
+/* About Section End*/
+/* Skills Section Start */
+#skill {
+    padding: 150px 0;
+}
+#skill .section-info h5{
+    text-align: right;
+}
+#skill .section-info h1{
+    text-align: right;
+}
+#skill .section-info p{
+    text-align: right;
+}
+#skill .skill_image{
+    padding:30px 130px;
+}
+/* Skills Section End */
+/* Service Section Start */
+#service{
+    padding: 98px 0;
+}
+
+#service .service_box{
+    padding: 40px 0;
+    background-color: #eeeeee;
+    position: relative;
+}
+#service  .service_box .service_box_icon{
+    width: 100px;
+    color: #e9e9e9;
+}
+#service .service_box .service_box_info{
+    width: calc(100% - 100px);
+
+}
+#service .service_box .service_box_info h3{
+    font-family:var(--first-font) ;
+    font-weight: 500;
+    font-size: 20px;
+    color: #222222;
+}
+#service .service_box .service_box_info p{
+    font-family:var(--second-font) ;
+    font-weight:400;
+    font-size:14px ;
+    color: #444444;
+    
+
+}
+#service  .service_box .overlay{
+    background-color:var(--common-color);
+    inset: 0px;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    padding:50px;
+    transform: scale(0);
+    transition: 1sec;
+    opacity: 0;
+}
+#service  .service_box:hover .overlay{
+    transform: scale(1);
+    opacity: 1;
+}
+
+#service .service_box .overlay button{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    font-family: var(--first-font);
+    font-weight: 500;
+    background:#ffd153;
+    border: 1px solid #ededed;
+}
+#service .service_box button:hover .overlay {
+    color:#0f2f44;
+    transition: 0.4sec;
+    background-color: #ffffff;
+}
+
+/* Service Section End */
+/* Portfolio Section Start */
+#portfolio{
+    padding: 150px 0;
+}
+#portfolio .portfolio_box{
+    position: relative;
+}
+#portfolio .portfolio_box .overlay{
+    padding: 10px 30px;
+}
+#portfolio .portfolio_box .overlay{
+    background-color:none;
+    inset: 0px;
+    color: #222222;
+    position: absolute;
+    text-align: center;
+    padding: 0 10px;
+    transform: scale(0);
+    transition: 1sec;
+    opacity: 0;
+}
+#portfolio  .portfolio_box:hover .overlay{
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Portfolio Section End */
+#service .service_box{
+    padding: 2px 0;
+    background-color: #eeeeee;
+
+}
+#service  .service_box .service_box_icon{
+    width: 300px;
+    color: #482929;
+}
+#service .service_box .service_box_info{
+    width: calc(100% - 300px);
+
+}
+
+#blogs h5 {
+    font-size: 20px;
+    font-family: var(--third-font);
+    font-weight: 500;
+    padding: 10px 0;
+}
+#blogs h6 {
+    font-size:14px;
+    font-family: var(--third-font);
+    font-weight: 400;
+}
+#blogs .overlay {
+    padding: 30px 0;
+}
+#blogs .blog_box {
+    padding: 60px 0;
+}
+#blogs .overlay a {
+    color: #777777;
+    font-size: 16px;
+    font-family: var(--third-font);
+}
+#blogs .btn{
+    box-shadow: 0 7px 20px #8484bf;
+    border-radius:10px;
+}
+#contact {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+}
+#contact .icon li{
+    font-size: 30px;
+    line-height: 30px;   
+    font-weight: 400;
+    padding:0 10px; 
+}
+
+#contact .icon li:hover{
+    background: #0f2f44;
+}
+#contact .icon li:hover a{
+    background: none;
+    color:#ffffff;
+}
+
+#contact .contact_2 li{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    
+}
+#contact .contact_2 i {
+    padding-right:10px;
+}
+
+#contact .contact_3 h3{
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+#contact .contact_3 li {
+    margin-bottom: 18px;  
+}
+#contact .contact_4 h3{
+    margin-bottom: 18px;
+    font-family: var(--second-font);
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#contact .contact_4 ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:10px ;
+}
+/*footer section start*/
+footer {
+    
+    text-align: center;
+    background-color:#efebeb;
+    color:#7e8287;
+    padding:20px 0;
+    font-size: 14px;
+}
+/*footer section End*/
